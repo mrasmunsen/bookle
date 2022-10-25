@@ -1,0 +1,163 @@
+header{
+    margin-top: 0px;
+    background: #f3c677;
+    background-position: center top;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+h1{
+    color: #111d41;
+    font-family: DM Serif Display;
+    text-align: center;
+    font-size: 50px;
+    margin-top: -10px;
+    margin-bottom: 25px;
+    padding-top: 25px;
+}
+
+.navrayuela{
+    display: inline-block;
+    margin-bottom: 18px;
+}
+.navgral{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+.linknav{
+    padding: 16px;
+}
+body{
+    background-color: #fbf0da;
+    font-family: Quicksand;
+    font-weight: 500;
+}
+/* unvisited link */
+a:link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+  
+ /* visited link */
+a:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+  
+/* mouse over link */
+a:hover {
+    color: #f3c677;
+    transition: all .3s;
+}
+  
+/* selected link */
+a:active {
+    color: #111d41;
+}
+/* mouse over link */
+.navrayuela a:hover {
+    color: #fbf0da;
+}
+/* width */
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 20px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track{
+    background: #fbf0da;
+    border-radius: 20px;
+}
+  
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #f3c677;
+    border-radius: 20px;
+    
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #f3c677;
+}
+.producto{
+    display: flex;
+    margin-bottom: 10px;
+}
+.img-producto{
+    float: left;
+}
+.infoproducto{
+    clear: none;
+    display: block;
+    height: 30px;
+    margin-left: 20px;
+}
+.descripcion p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#buttonAddCarrito{
+    background-color: #f3c677;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 6px;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: Quicksand;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    
+}
+
+#buttonAddCarrito:hover{
+    background-color: #e5ad4d;
+    transition: all .3s;
+}
+footer p{
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+footer a{
+    font-size: 13px;
+}
+footer{
+    margin-top: 0px;
+    background: #111d41;
+    background-position: center top;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: #fbf0da;
+}
+#footer{
+    margin-left: 20px;
+    padding-top: 1px;
+    margin-top: 10px;
+}
+.nuestrasredes{
+    margin-top: 0px;
+}
+.sobrenosotros{
+    margin-top: 13px;
+}
+.sobrenosotros a:link{
+    color: #fbf0da;
+    text-decoration: none;
+}
+.sobrenosotros a:visited {
+    color: #fbf0da;
+    text-decoration: none;
+}
+.sobrenosotros a:hover {
+    color: #f3c677;
+    transition: all .3s;
+}
+.comentario{
+    margin-bottom: -30px;
+    padding-bottom: 30px;
+}

@@ -1,0 +1,283 @@
+
+#header{
+    margin-top: 0px;
+    background: #f3c677;
+    background-position: center top;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.micuenta{
+    display: inline;
+    width: 700px;
+    max-width: 50%;
+    text-align: right;
+}
+
+body{
+    background-color: #fbf0da;
+    font-family: Quicksand;
+    font-weight: 500;
+}
+
+h1{
+    color: #111d41;
+    font-family: DM Serif Display;
+    /*font-style: italic;*/
+    text-align: center;
+    /*background-image: url(./../pictures/rayuela.jpg);
+    background-repeat: no-repeat;*/
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: -10px;
+    padding-top: 10px;
+}
+h2{
+    margin-top: -10px;
+    text-align: center;
+    color: #111d41;
+}
+h3{
+    display: inline-block;
+    margin-top: 0px;
+    padding-top: -10px;
+    font-size: 20px;
+}
+/*
+#descripcion1{
+    display: inline-block;
+    max-width: 30%;
+    text-align: center;
+    align-items: center;
+}
+#descripcion2{
+    display: inline-block;
+    max-width: 30%;
+    text-align: center;
+    align-items: center;
+}
+*/
+/* Dropdown Button */
+.dropbtn {
+    background-color: #f3c677;
+    padding: 16px;
+    font-family: Quicksand;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fbf0da;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    white-space: wrap;
+    max-width: 30em;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+.dropdown-content p{
+    padding: 16px;
+}
+  
+  /* Links inside the dropdown */
+  .dropdown-content a{
+    color: black;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content .link-dropdown:hover {
+    background-color: #111d41; 
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+ .link-dropdown{
+    padding: 12px 16px;
+  }
+
+  #link-ciclos{
+    display: inline;
+    text-decoration: underline;
+  }
+
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #e3b669;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#novedades{
+    /*border: 5px solid #c4bbaa;*/
+    padding: 5px;
+    border-radius: 20px;
+    overflow-x: scroll;
+    white-space: nowrap;
+    display: flex;
+    align-items: baseline;
+}
+
+/* width */
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 20px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track{
+    background: #fbf0da;
+    border-radius: 20px;
+}
+  
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #f3c677;
+    border-radius: 20px;
+    
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #f3c677;
+}
+
+/*box-shadow: 0 0 0 10px #32557f,
+              0 0 0 15px #f69ec4,
+              0 2px 5px 15px rgba(0,0,0,.6);*/
+.navindex{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.navgral{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+.linknav{
+    padding: 20px;
+}
+
+/* unvisited link */
+a:link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+  
+ /* visited link */
+a:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+  
+/* mouse over link */
+a:hover {
+    color: #f3c677;
+    transition: all .3s;
+}
+  
+/* selected link */
+a:active {
+    color: #111d41;
+}
+
+  
+/* mouse over link */
+.navindex a:hover {
+    color: #fbf0da;
+    transition: all .3s;
+}
+
+/*display: cambia el tipo de bloque (bloque o linea)*/
+
+.boxnovedades{
+    display: inline-block;
+    width: 700px;
+    max-width: 20%; 
+    height: 250px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: -2px 2px 10px 5px #e4d9c2;
+    /*emparejar el shadow del box https://www.w3schools.com/cssref/css3_pr_box-shadow.asp */
+    border-radius: 20px;
+    min-width: 15%;
+}
+
+h5{
+    white-space: pre-wrap;
+}
+#titulonovedades{
+    margin-bottom: 10px;
+}
+
+footer p{
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+footer a{
+    font-size: 13px;
+}
+footer{
+    margin-top: 0px;
+    background: #111d41;
+    background-position: center top;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: #fbf0da;
+}
+#footer{
+    margin-left: 20px;
+    padding-top: 1px;
+    margin-top: 10px;
+}
+.nuestrasredes{
+    margin-top: 0px;
+}
+.sobrenosotros{
+    margin-top: 13px;
+}
+.sobrenosotros a:link{
+    color: #fbf0da;
+    text-decoration: none;
+}
+.sobrenosotros a:visited {
+    color: #fbf0da;
+    text-decoration: none;
+}
+.sobrenosotros a:hover {
+    color: #f3c677;
+    transition: all .3s;
+}
+.comentario{
+    margin-bottom: -30px;
+    padding-bottom: 30px;
+}
+ /*.flex-container{
+    display: flex;
+    flex-wrap: ;
+    flex-direction: row-reverse;
+    flex-flow: simplifica, se puede poner (por ej) row-reverse wrap;
+    order: señalar q posición tiene (si es el primero o el ultimo)
+    algo: algo !important el important hace q se priorice esa regla, entonces overules la cascada
+    id mata a clase
+}
+.flex-item{
+    margin: 10px;
+}*/

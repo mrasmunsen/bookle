@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>bookle</title>
+        <link rel="icon" href="./favicon_io/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/index.css">
+    </head>
+    <body>
+        <header>
+            <div id="header">
+                <h1 id="InicioIndex">Bookle</h1>
+                <h2>Leé libros, creá ciclos.</h2>
+                <!--La idea es hacer una especie de animación que vaya de "bucle" a "bookle". Así se va entendiendo el concepto de la página-->
+                <div class="navgral">
+                    <div class="navindex">
+                        <!--centrar-->
+                        <nav class="navindex">
+                            <a href="#" class="linknav">Inicio</a>
+                            <a href="./html/seccion-compras.html" class="linknav">Comprá</a>
+                            <a href="./html/seccion-ventas.html" class="linknav">Vendé</a>
+                            <a href="./html/sobrenosotros.html" class="linknav">Sobre nosotros</a>
+                            <a href="./html/micuenta.html" id="micuentaindex" class="linknav">Mi cuenta</a>
+                        </nav>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">Leé</button>
+                        <div class="dropdown-content">
+                        <p>Tu próxima lectura está en la biblioteca de alguien más. Ahorrá y dale una nueva vida a un libro.</p>
+                        <a href="./seccion-compras.html" class="link-dropdown">Comprá</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">Creá</button>
+                        <div class="dropdown-content">
+                            <p>
+                                No dejes que tus libros queden abandonados, es momento de buscarles un nuevo hogar. Es momento de crear <a href="./sobrenosotros.html" id="link-ciclos">ciclos</a>.
+                            </p>
+                        <a href="./seccion-ventas.html" class="link-dropdown">Vendé</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main> 
+            <h3 id="titulonovedades">¡No te pierdas las novedades!</h3>
+            <div id="novedades">
+                <!--Acá van a aparecer las últimas publicaciones pero más chiquito. Estaría bueno hacer una especie de "carrusel" que no es carrusel, como cuando entras a un producto en MercadoLibre y abajo te aparecen las publicaciones del vendendor. Algo así como esa muestra de publicaciones-->
+                <div class="boxnovedades">
+                    <a href="./orgulloyprejuicio.html">
+                        <h5>Orgullo y Prejuicio - Jane Austen</h5>
+                        <img src="./pictures/orgulloyprejuicio.jpg" alt="imagen de libro" height="105,75" width="70,5">
+                        <h6>$1500</h6>
+                    </a>
+                </div>
+                <div class="boxnovedades">
+                    <a href="./rayuela.html">
+                        <h5>Rayuela. Edición conmemorativa - Julio Cortázar</h5>
+                        <img src="./pictures/rayuela.jpg" alt="Rayuela julio cortazar" height="105,75" width="70,5">
+                        <h6>$2000</h6>
+                    </a>
+                </div>
+                <div class="boxnovedades">
+                    <a href="./orgulloyprejuicio.html">
+                        <h5>Orgullo y Prejuicio - Jane Austen</h5>
+                        <img src="./pictures/orgulloyprejuicio.jpg" alt="imagen de libro" height="105,75" width="70,5">
+                        <h6>$1500</h6>
+                    </a>
+                </div>
+                <div class="boxnovedades">
+                    <a href="./rayuela.html">
+                        <h5>Rayuela. Edición conmemorativa - Julio Cortázar</h5>
+                        <img src="./pictures/rayuela.jpg" alt="Rayuela julio cortazar" height="105,75" width="70,5">
+                        <h6>$2000</h6>
+                    </a>
+                </div>
+                <div class="boxnovedades">
+                    <a href="./orgulloyprejuicio.html">
+                        <h5>Orgullo y Prejuicio - Jane Austen</h5>
+                        <img src="./pictures/orgulloyprejuicio.jpg" alt="imagen de libro" height="105,75" width="70,5">
+                        <h6>$1500</h6>
+                    </a>
+                </div>
+                <div class="boxnovedades">
+                    <a href="./rayuela.html">
+                        <h5>Rayuela. Edición conmemorativa - Julio Cortázar</h5>
+                        <img src="./pictures/rayuela.jpg" alt="Rayuela julio cortazar" height="105,75" width="70,5">
+                        <h6>$2000</h6>
+                    </a>
+                </div>
+            </div>
+            <a href="#InicioIndex" class="volverarriba">Volver arriba</a>
+        </main>
+        <footer> 
+            <!--iconos en https://tablericons.com/ -->
+            <div id="footer">
+                <nav class="sobrenosotros">
+                    <a href="./sobrenosotros.html">Sobre nosotros</a>
+                </nav>
+                <p class="nuestrasredes">Nuestras redes:</p>
+                <a href="https://www.instagram.com/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fbf0da" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="4" y="4" width="16" height="16" rx="4" />
+                    <circle cx="12" cy="12" r="3" />
+                    <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                  </svg></a>
+                <a href="https://twitter.com/home" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fbf0da" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+                  </svg></a>
+                <br>
+                <p>Dejanos tus comentarios o sugerencias:</p>
+                <form class="comentario">
+                    <textarea> </textarea>
+                    <br>
+                    <input type="submit" id="enviarComent">
+                </form>
+            </div>
+            <!--
+            <div class="flex-container">
+                llamarlo así por convención
+                <div class="flex-item">caja1</div>
+                <div class="flex-item">caja2</div>
+                <div class="flex-item">caja3</div>
+            </div> -->
+        </footer>
+        <script src="./js/index.js"></script>
+    </body>
+</html>

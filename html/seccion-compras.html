@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bookle - comprá</title>
+    <link rel="icon" href="./favicon_io/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/seccion-compras.css">
+</head>
+<body>
+    <header>
+        <h1 id="iniciocompras">Comprá. Ahorrá.</h1>
+        <div class="navgral">
+            <div class="navcompras">
+                <!--centrar-->
+                <nav class="navindex">
+                    <a href="../index.html" class="linknav">Inicio</a>
+                    <a href="./seccion-compras.html" class="linknav">Comprá</a>
+                    <a href="./seccion-ventas.html" class="linknav">Vendé</a>
+                    <a href="./sobrenosotros.html" class="linknav">Sobre nosotros</a>
+                    <a href="./micuenta.html" id="micuentaindex" class="linknav">Mi cuenta</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <aside id="filtrosproductos">
+            <!--En este div me gustaría hacer filtros, donde se podría seleccionar más específicamente qué tipo de libros quiero leer. Pero no sé cómo hacerlo :)-->
+            <input type="range" min="10" max="20000" name="filtroprecio">
+            <br>
+            <!-- <input type="button" id="todosFiltros" value="Seleccionar todos" class="todosFiltros"></input> -->
+            <div class="filtros-genero-ficcion">
+                <h4>Género - ficción</h4>
+                <input type="checkbox" class="filtroCompras ficcion" value="policiales" id="policiales">Policiales</input>
+                <br>
+                <input type="checkbox" class="filtroCompras ficcion" value="romance" id="romance">Romance</input>
+                <br>
+                <input type="checkbox" class="filtroCompras ficcion" value="historico" id="historico">Histórico</input>
+                <br>
+                <input type="checkbox" class="filtroCompras ficcion" id="terror">Terror</input>
+                <br>
+                <input type="checkbox" class="filtroCompras ficcion" id="thriller">Thriller</input>
+                <br>
+                <input type="checkbox" class="filtroCompras ficcion" id="fantasia">Fantasía</input>
+                <br>
+                <input type="checkbox" class="filtroCompras ficcion" id="cienciaFiccion">Ciencia Ficción</input>
+                <br>
+                <input type="checkbox" class="filtroCompras ficcion" id="narrativa">Narrativa</input>
+            </div>
+            <div class="filtros-genero-noficcion">
+                <h4>Género - no ficción</h4>
+                <input type="checkbox" class="filtroCompras noficcion" id="autoayuda">Autoayuda</input>
+                <br>
+                <input type="checkbox" class="filtroCompras noficcion" id="adminEmpresa">Administración de Empresas</input>
+                <br>
+                <input type="checkbox" class="filtroCompras noficcion" id="divulgacion">Divulgación</input>
+                <br>
+                <input type="checkbox" class="filtroCompras noficcion" id="historia">Historia</input>
+                <br>
+                <input type="checkbox" class="filtroCompras noficcion" id="espiritualidadReligion">Espiritualidad - religión</input>
+                <br>
+                <input type="checkbox" class="filtroCompras noficcion" id="filosofia">Filosofía</input>
+                <br>
+                <input type="checkbox" class="filtroCompras noficcion" id="biografia">Biografía - autobiografía</input>
+                <br>
+                <input type="checkbox" class="filtroCompras noficcion" id="cienciasMedicas">Ciencias Médicas</input>
+                <br>
+                <input type="checkbox" class="filtroCompras noficcion" id="cienciasSociales">Ciencias Sociales</input>
+                <br>
+                <input type="checkbox" class="filtroCompras noficcion" id="cienciasEconomicas">Ciencias Economicas</input>
+                <br>
+                <input type="checkbox" class="filtroCompras noficcion" id="cienciasJuridicas">Ciencias Jurídicas</input>
+                <br>
+                <input type="checkbox" class="filtroCompras noficcion" id="idiomas">Idiomas</input>
+                <br>
+            </div>
+            <!-- <input type="button" id="limpiarFiltros" value="Limpiar"></input> -->
+        </aside>
+        <div id="content">
+            <div name="productos">
+                <a href="orgulloyprejuicio.html" class="linkproductos romance">
+                    <div class="img-productos">
+                        <img src="../pictures/orgulloyprejuicio.jpg" alt="imagen de libro" height="105,75" width="70,5">
+                    </div>
+                    <div class="infoproductos">
+                        <h4>Orgullo y Prejuicio - Jane Austen</h4>
+                        <h5>$1500</h5>
+                    </div>
+                </a>
+                <a href="rayuela.html" class="linkproductos narrativa">
+                    <div class="img-productos">
+                        <img src="../pictures/rayuela.jpg" alt="rayuela julio cortazar" height="105,75" width="70,5">
+                    </div>
+                    <div class="infoproductos">
+                        <h4>Rayuela. Edición conmemorativa - Julio Cortázar</h4>
+                        <h5>$2000</h5>
+                    </div>
+                </a>
+                <a href="ccyc.html" class="linkproductos cienciasJuridicas">
+                    <div class="img-productos">
+                        <img src="../pictures/ccyc.jfif" alt="codigo civil y comercial comentado" height="105,75" width="70,5">
+                    </div>
+                    <div class="infoproductos">
+                        <h4>CCyC comentado. Tomo II: Familia.</h4>
+                        <h5>$5000</h5>
+                    </div>
+                </a>
+                <a href="orgulloyprejuicio.html" class="linkproductos romance">
+                    <div class="img-productos">
+                        <img src="../pictures/orgulloyprejuicio.jpg" alt="imagen de libro" height="105,75" width="70,5">
+                    </div>
+                    <div class="infoproductos">
+                        <h4>Orgullo y Prejuicio - Jane Austen</h4>
+                        <h5>$1500</h5>
+                    </div>
+                </a>
+                <a href="rayuela.html" class="linkproductos narrativa">
+                    <div class="img-productos narrativa">
+                        <img src="../pictures/rayuela.jpg" alt="rayuela julio cortazar" height="105,75" width="70,5">
+                    </div>
+                    <div class="infoproductos">
+                        <h4>Rayuela. Edición conmemorativa - Julio Cortázar</h4>
+                        <h5>$2000</h5>
+                    </div>
+                </a>
+                <a href="ccyc.html" class="linkproductos cienciasJuridicas">
+                    <div class="img-productos cienciasJuridicas">
+                        <img src="../pictures/ccyc.jfif" alt="codigo civil y comercial comentado" height="105,75" width="70,5">
+                    </div>
+                    <div class="infoproductos">
+                        <h4>CCyC comentado. Tomo II: Familia.</h4>
+                        <h5>$5000</h5>
+                </div>
+            </div>
+            <a href="#iniciocompras" class="volverarriba">Volver arriba</a>
+        </div>
+    </main>
+    <footer> 
+        <div id="footer">
+            <nav class="sobrenosotros">
+                <a href="./sobrenosotros.html">Sobre nosotros</a>
+            </nav>
+            <p class="nuestrasredes">Nuestras redes:</p>
+            <a href="https://www.instagram.com/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fbf0da" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <rect x="4" y="4" width="16" height="16" rx="4" />
+                <circle cx="12" cy="12" r="3" />
+                <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+              </svg></a>
+            <a href="https://twitter.com/home" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fbf0da" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+              </svg></a>
+            <br>
+            <p>Dejanos tus comentarios o sugerencias:</p>
+            <form class="comentario">
+                <textarea> </textarea>
+                <br>
+                <input type="submit" id="enviarComent">
+            </form>
+        </div>
+    </footer>
+    <script src="../js/seccion-compras.js"></script>
+</body>
+</html>

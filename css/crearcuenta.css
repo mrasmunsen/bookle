@@ -1,0 +1,207 @@
+main{
+    min-height: 200px;
+}
+#header{
+    margin-top: 0px;
+    background: #f3c677;
+    background-position: center top;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.micuenta{
+    display: inline;
+    width: 700px;
+    max-width: 50%;
+    text-align: right;
+}
+
+body{
+    background-color: #fbf0da;
+    font-family: Quicksand;
+    font-weight: 500;
+}
+
+h1{
+    color: #111d41;
+    font-family: DM Serif Display;
+    /*font-style: italic;*/
+    text-align: center;
+    /*background-image: url(./../pictures/rayuela.jpg);
+    background-repeat: no-repeat;*/
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: -10px;
+    padding-top: 10px;
+}
+h2{
+    margin-top: -10px;
+    text-align: center;
+    color: #111d41;
+}
+h3{
+    display: inline-block;
+    margin-top: 0px;
+    padding-top: -10px;
+    font-size: 20px;
+}
+
+#inicioSesion{
+    display: flex;
+    justify-content: center;
+}
+#tituloDatos{
+    margin-bottom: 10px;
+}
+.datosInicioSesion{
+    margin-top: 10px;
+}
+.boxInicioSesion{
+    border: none;
+    background-color:#F7DBA9;
+    border-radius: 5px;
+    padding: 5px;
+}
+.boxInicioSesion::placeholder{
+    padding-left: 5px;
+    font-family: Quicksand;
+    font-weight: 500;
+    padding: 5px;
+}
+#terminosLink{
+    font-size: 13px;
+    padding-left: 25px;
+}
+#buttonInicioSesion{
+    background-color: #f3c677;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 7px;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: Quicksand;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    
+}
+
+#buttonInicioSesion:hover{
+    background-color: #e5ad4d;
+    transition: all .3s;
+}
+/* width */
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 20px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track{
+    background: #fbf0da;
+    border-radius: 20px;
+}
+  
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #f3c677;
+    border-radius: 20px;
+    
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #f3c677;
+}
+
+/*box-shadow: 0 0 0 10px #32557f,
+              0 0 0 15px #f69ec4,
+              0 2px 5px 15px rgba(0,0,0,.6);*/
+.navindex{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.navgral{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+.linknav{
+    padding: 20px;
+}
+
+/* unvisited link */
+a:link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+  
+ /* visited link */
+a:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+  
+/* mouse over link */
+a:hover {
+    color: #f3c677;
+    transition: all .3s;
+}
+  
+/* selected link */
+a:active {
+    color: #111d41;
+}
+
+  
+/* mouse over link */
+.navindex a:hover {
+    color: #fbf0da;
+    transition: all .3s;
+}
+
+/*display: cambia el tipo de bloque (bloque o linea)*/
+footer p{
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+footer a{
+    font-size: 13px;
+}
+footer{
+    margin-top: 0px;
+    background: #111d41;
+    background-position: center top;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: #fbf0da;
+}
+#footer{
+    margin-left: 20px;
+    padding-top: 1px;
+    margin-top: 10px;
+}
+.nuestrasredes{
+    margin-top: 0px;
+}
+.sobrenosotros{
+    margin-top: 13px;
+}
+.sobrenosotros a:link{
+    color: #fbf0da;
+    text-decoration: none;
+}
+.sobrenosotros a:visited {
+    color: #fbf0da;
+    text-decoration: none;
+}
+.sobrenosotros a:hover {
+    color: #f3c677;
+    transition: all .3s;
+}
+.comentario{
+    margin-bottom: -30px;
+    padding-bottom: 30px;
+}
